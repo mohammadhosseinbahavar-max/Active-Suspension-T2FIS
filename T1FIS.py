@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from skfuzzy import control as ctrl
 import time
-np.random.seed(42)
+np.random.seed(43)
 
 _trapz = np.trapezoid if hasattr(np, 'trapezoid') else np.trapz
 ms = 500
