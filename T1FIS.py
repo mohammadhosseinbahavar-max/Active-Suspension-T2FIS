@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as npp
 import matplotlib.pyplot as plt
 from skfuzzy import control as ctrl
 import time
